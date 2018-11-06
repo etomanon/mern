@@ -18,8 +18,16 @@
     margin-top: 40px;
 }
 
+.mr-5 {
+    margin-right: 5px;
+}
+
 .mr-10 {
     margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
 }
 
 .mb-5 {
@@ -38,6 +46,26 @@
     margin-bottom: 40px;
 }
 
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
 .ml-auto {
     margin-left: auto;
 }
@@ -54,10 +82,26 @@
     padding: 20px;
 }
 
+.pt-5 {
+    padding-top: 5px;
+}
+
 .pt-40 {
     padding-top: 40px;
 }
 
+.pr-5 {
+    padding-right: 5px;
+}
+
 .pb-40 {
     padding-bottom: 40px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.list-mt-10:not(:first-child) {
+    margin-top: 10px;
 }

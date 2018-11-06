@@ -1,5 +1,5 @@
-.mobile-container-column {
-    @media screen and (max-width: 600px) {
+.mobile-column {
+    @media screen and (max-width: $mobile) {
         flex-direction: column;
 
         > * {
@@ -10,10 +10,68 @@
       }
 }
 
+.mobile-center {
+    @media screen and (max-width: $mobile) {
+        align-items: center;        
+      }
+}
+
+.mobile-text-center {
+    @media screen and (max-width: $mobile) {
+        text-align: center;        
+      }
+}
+
 .mobile-container-mt-20 {
     > *:not(:first-child) {
         @media screen and (max-width: $mobile) {
             margin-top: 20px;
         }
     } 
+}
+
+.mobile-mt-20 {
+        @media screen and (max-width: $mobile) {
+            margin: 20px 0 0 0;
+        }
+}
+
+.mobile-m-lr-0 {
+    @media screen and (max-width: $mobile) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.mobile-p-0 {
+    @media screen and (max-width: $mobile) {
+        padding: 0
+    }
+}
+
+.tablet-column {
+    @media screen and (max-width: $tablet) {
+        flex-direction: column;
+        margin-right: 0;
+
+        > * {
+        flex-grow: 0;
+        flex-basis: auto;
+        padding-right: 0;
+        width: auto;
+        }
+        
+      }
+}
+
+.tablet-center {
+    @media screen and (max-width: $tablet) {
+        align-items: center;        
+      }
+}
+
+.tablet-mt-20 {
+    @media screen and (max-width: $tablet) {
+        margin: 20px 0 0 0;
+    }
 }

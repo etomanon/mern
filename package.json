@@ -1,5 +1,5 @@
 {
-    "name": "mern-cuzk",
+    "name": "mern",
     "version": "1.0.0",
     "scripts": {
         "client": "cd client && npm run start",
@@ -25,6 +25,6 @@
         "uuid": "^3.2.1"
     },
     "devDependencies": {
-        "nodemon": "^1.14.12"
+        "nodemon": "^1.18.6"
     }
 }

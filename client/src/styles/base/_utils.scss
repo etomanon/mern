@@ -10,6 +10,17 @@
     background: $secondary;
 }
 
+.background-white {
+    background: #fff;
+}
+
+.background-white-hover {
+    &:hover {
+        background: #fff;
+        border-left: 1px solid $primary;
+    }
+}
+
 .divider {
     background: $light-grey;
     height: 1px;
@@ -32,6 +43,51 @@
     border: 1px solid $primary;
 }
 
+.border-secondary {
+    border: 1px solid $secondary;
+}
+
 .border-radius {
     border-radius: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+        color: $primary;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 320px;
+    width: 75%;
+    max-width: 600px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.delete-icon {
+    color: #ff0000;
+    float: right;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform .5s ease-in-out;
+
+    &:hover {
+        transform: rotate(360deg)
+    }
 }

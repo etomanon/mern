@@ -1,11 +1,18 @@
-@import "vendors/normalize";
+@import "src/styles/vendors/normalize";
+@import "src/styles/vendors/custom";
 
-@import "base/variables";
-@import "base/typography";
-@import "base/layout";
-@import "base/utils";
-@import "base/spacing";
+@import "src/styles/base/variables";
 
-@import "components/default";
+@import "src/styles/components/input";
+@import "src/styles/components/button";
+@import "src/styles/components/navigation";
 
-@import "base/mobile";
+@import "src/styles/base/typography";
+@import "src/styles/base/layout";
+@import "src/styles/base/utils";
+@import "src/styles/base/spacing";
+@import "src/styles/base/material";
+
+@import "src/styles/components/default";
+
+@import "src/styles/base/mobile";
